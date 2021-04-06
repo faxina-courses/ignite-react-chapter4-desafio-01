@@ -1,4 +1,3 @@
-import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import SwiperCore, { Navigation, Pagination, Parallax } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { SlideContent } from '../slide-content';
