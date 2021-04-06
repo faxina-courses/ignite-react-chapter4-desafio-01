@@ -1,4 +1,11 @@
-import { Flex, Image, Text } from '@chakra-ui/react';
+import {
+  Flex,
+  Image,
+  ListItem,
+  Text,
+  UnorderedList,
+  useBreakpointValue,
+} from '@chakra-ui/react';
 import { TravelTypeProps } from './travel-type.interface';
 
 export const TravelType = ({
