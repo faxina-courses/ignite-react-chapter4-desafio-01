@@ -4,10 +4,10 @@ import { ContinentInfoProps } from './continent-info.interface';
 export const ContinentInfo = ({ title, subTitle }: ContinentInfoProps) => {
   return (
     <Flex direction='column' justifyContent='center' align='center'>
-      <Text fontWeight='600' fontSize='48px' color='yellow.700'>
+      <Text fontWeight='600' fontSize={['24px', '48px']} color='yellow.700'>
         {title}
       </Text>
-      <Text fontWeight='600' fontSize='24px'>
+      <Text fontWeight='600' fontSize={['18px', '24px']}>
         {subTitle}
       </Text>
     </Flex>
